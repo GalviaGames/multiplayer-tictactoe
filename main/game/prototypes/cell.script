@@ -1,0 +1,31 @@
+local cursor = require "in.cursor"
+
+go.property("col", -1)
+go.property("row", -1)
+
+function init(self)
+    self.used = false
+    msg.post("#o_sprite", "disable")
+    msg.post("#x_sprite", "disable")
+end
+
+function on_message(self, message_id, message, sender)
+    -- used cells should do nothing
+    if self.used then
+        return
+    end
+
+    if message_id == cursor.CLICKED then
+        local props = {
+            col = self.col,
+            row = self.row,
+        }
+        msg.post("/controller#game_controller", "cell_clicked", props)
+    elseif message_id == hash("show_o") then
+        self.used = true
+        msg.post("#o_sprite", "enable")
+    elseif message_id == hash("show_x") then
+        self.used = true
+        msg.post("#x_sprite", "enable")
+    end
+end

@@ -1,0 +1,103 @@
+local monarch = require "monarch.monarch"
+local nakama_client = require "main.modules.nakama_client"
+
+local square_size = 160
+local half_square_size = square_size / 2
+local margin = 5
+
+local shape_for_player = {
+    "show_x",
+    "show_o",
+}
+
+local function spawn_cells(starting_x, starting_y)
+    local rows = {}
+
+    for row = 1, 3, 1 do
+        local cols = {}
+        local y = starting_y - (row - 1) * (square_size + margin)
+
+        for col = 1, 3, 1 do
+            local x = starting_x + (col - 1) * (square_size + margin)
+
+            local pos = vmath.vector3(x + half_square_size, y + half_square_size, 0.5)
+
+            local props = {
+                col = col,
+                row = row,
+            }
+
+            cols[#cols + 1] = factory.create("/cell_factory#factory", pos, nil, props, nil)
+        end
+        rows[#rows + 1] = cols
+    end
+
+    return rows
+end
+
+local function get_cell(self, col, row)
+    return self.cells[row][col]
+end
+
+local function update_cells(self, cells)
+    for row, cols in ipairs(cells) do
+        for col, state in ipairs(cols) do
+            if state ~= -1 then
+                local cell = get_cell(self, col, row)
+                msg.post(cell, shape_for_player[state])
+            end
+        end
+    end
+end
+
+function init(self)
+    monarch.preload("results")
+
+    self.disabled = false
+    self.cells = spawn_cells(25, 800)
+
+    nakama_client.set_listener_url("game:/controller#game_controller", true)
+end
+
+local function show_results(result)
+    print("result", result)
+    nakama_client.set_listener_url(nil)
+    monarch.show("results", nil, { result = result })
+end
+
+function on_message(self, message_id, message, sender)
+    pprint("game_controller", "on_message", message_id, message, sender)
+    if message_id == nakama_client.msgs.MATCH_UPDATE then
+        if message.state.draw then
+            monarch.show("results", { result = "draw" })
+            show_results("draw")
+        elseif message.state.winner then
+            print("WON", message.state.winner, self.player_id)
+            local result = (message.state.winner == self.player_id) and "player_won" or "player_lost"
+            show_results(result)
+        end
+
+        if message.your_turn then
+            self.disabled = false
+            self.player_id = message.state.player_turn
+            msg.post("/gui", "player_turn")
+            -- update cells with the state from the opponent
+            update_cells(self, message.state.cells)
+        else
+            self.disabled = true
+            msg.post("/gui", "opponent_turn")
+        end
+    elseif message_id == nakama_client.msgs.OPPONENT_LEFT then
+        show_results("opponent_left")
+    end
+
+    if self.disabled then
+        return
+    end
+
+    if message_id == hash("cell_clicked") then
+        -- TODO: implement game logic
+        msg.post(sender, shape_for_player[self.player_id])
+        nakama_client.send_player_move(message.col, message.row)
+    end
+end

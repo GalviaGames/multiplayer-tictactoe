@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7680"
+   height="4320"
+   viewBox="0 0 2032 1143"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="assets.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#5b5959"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.8779143"
+     inkscape:cx="198.35836"
+     inkscape:cy="1000.5782"
+     inkscape:window-width="1920"
+     inkscape:window-height="1160"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3182"
+       x="-0.058592594"
+       y="-0.058592594"
+       width="1.1171852"
+       height="1.1171852">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2509644"
+         id="feGaussianBlur3184" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4805"
+       x="-0.067539494"
+       y="-0.067539538"
+       width="1.135079"
+       height="1.1350791">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1277845"
+         id="feGaussianBlur4807" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2-3"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2-6" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#809bce;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect846"
+       width="142.875"
+       height="317.5"
+       x="92.604164"
+       y="109.26385"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/dark-bg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#95b8d1;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect846-9"
+       width="142.875"
+       height="317.5"
+       x="248.90781"
+       y="113.48014"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/light-bg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g4274"
+       transform="translate(7.249099,-4.4208678)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/square.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#a7ceb9;fill-opacity:1;stroke-width:0;filter:url(#filter3182);stop-color:#000000"
+         id="rect989-7-0"
+         width="51.240513"
+         height="51.240513"
+         x="25.754679"
+         y="218.16411"
+         ry="5.5422277"
+         transform="matrix(0.85109516,0,0,0.85109516,7.6499767,36.300672)" />
+      <rect
+         style="fill:#d6eadf;fill-opacity:1;stroke-width:0;stop-color:#000000"
+         id="rect989-7"
+         width="42.333332"
+         height="42.333332"
+         x="30.208269"
+         y="222.61769"
+         ry="4.5788178" />
+    </g>
+    <g
+       id="g5469"
+       transform="translate(-24.617942,-2.2125056)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/o.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path4498-1"
+         style="font-variation-settings:normal;vector-effect:none;fill:#7f96a6;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter4805);stop-color:#000000"
+         d="m 54.763238,277.46876 a 20.037927,20.037927 0 0 0 -20.038083,20.03808 20.037927,20.037927 0 0 0 20.038083,20.03745 20.037927,20.037927 0 0 0 20.037473,-20.03745 20.037927,20.037927 0 0 0 -20.037473,-20.03808 z m 0,9.13979 a 10.897715,10.897715 0 0 1 10.89766,10.89829 10.897715,10.897715 0 0 1 -10.89766,10.89765 10.897715,10.897715 0 0 1 -10.898272,-10.89765 10.897715,10.897715 0 0 1 10.898272,-10.89829 z"
+         transform="matrix(0.89405929,0,0,0.89405929,5.801624,31.518052)" />
+      <g
+         id="g5464">
+        <path
+           id="path4498"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#95b8d1;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           d="M 54.76319,280.64167 A 16.864988,16.864988 0 0 0 37.898071,297.50679 16.864988,16.864988 0 0 0 54.76319,314.37138 16.864988,16.864988 0 0 0 71.627795,297.50679 16.864988,16.864988 0 0 0 54.76319,280.64167 Z m 0,7.69254 a 9.1720981,9.1720981 0 0 1 9.172051,9.17258 9.1720981,9.1720981 0 0 1 -9.172051,9.17204 9.1720981,9.1720981 0 0 1 -9.172567,-9.17204 9.1720981,9.1720981 0 0 1 9.172567,-9.17258 z" />
+      </g>
+    </g>
+    <g
+       id="g10014"
+       transform="translate(30.827536,-80.688002)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/x.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2-3);stop-color:#000000"
+         id="rect5811-7-7-9-8-1"
+         width="36.754097"
+         height="9.7237873"
+         x="10.605328"
+         y="336.95337"
+         ry="2.1871054"
+         transform="matrix(-0.69485606,0.68864923,-0.76345643,-0.75781168,319.82818,609.33298)" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2);stop-color:#000000"
+         id="rect5811-7-7-9-8"
+         width="36.754097"
+         height="9.7237873"
+         x="10.605328"
+         y="336.95337"
+         ry="2.1871054"
+         transform="matrix(0.68864923,0.69485606,-0.75781168,0.76345643,277.80145,89.160435)" />
+      <g
+         id="g9776">
+        <rect
+           style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           id="rect5811-7-7-97"
+           width="34.648018"
+           height="9.1665955"
+           x="270.92535"
+           y="228.67079"
+           ry="2.0617802"
+           transform="matrix(0.7042159,0.70998589,-0.7042159,0.70998589,0,0)" />
+        <rect
+           style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           id="rect5811-7-7-97-2"
+           width="34.648018"
+           height="9.1665955"
+           x="218.29002"
+           y="-294.74567"
+           ry="2.0617802"
+           transform="matrix(-0.70998589,0.7042159,-0.70998589,-0.7042159,0,0)" />
+      </g>
+    </g>
+  </g>
+</svg>

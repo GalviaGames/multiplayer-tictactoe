@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7680"
+   height="4320"
+   viewBox="0 0 2032 1143"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="assets.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#5b5959"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.3786701"
+     inkscape:cx="901.95614"
+     inkscape:cy="2088.9696"
+     inkscape:window-width="1920"
+     inkscape:window-height="1160"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2958">
+      <stop
+         style="stop-color:#d6eadf;stop-opacity:1"
+         offset="0"
+         id="stop2954" />
+      <stop
+         style="stop-color:#7c95c5;stop-opacity:0;"
+         offset="1"
+         id="stop2956" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3182"
+       x="-0.058592594"
+       y="-0.058592594"
+       width="1.1171852"
+       height="1.1171852">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2509644"
+         id="feGaussianBlur3184" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4805"
+       x="-0.067539494"
+       y="-0.067539538"
+       width="1.135079"
+       height="1.1350791">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1277845"
+         id="feGaussianBlur4807" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2-3"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2-6" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter13269"
+       x="-0.045746584"
+       y="-0.19213566"
+       width="1.0914932"
+       height="1.3842713">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.257311"
+         id="feGaussianBlur13271" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect18223_inverse"
+       inkscape:label="filtermask-powermask-path-effect18223"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect18223_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect18223_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2-3-9"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2-6-0" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8806-2-8"
+       x="-0.04248588"
+       y="-0.16058868"
+       width="1.0849718"
+       height="1.3211774">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.65063757"
+         id="feGaussianBlur8808-2-8" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2958"
+       id="linearGradient3993"
+       x1="427.3732"
+       y1="207.84894"
+       x2="447.95767"
+       y2="207.84894"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-22.819226,-24.790525)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2958"
+       id="linearGradient6303"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-90,439.26049,231.73404)"
+       x1="427.3732"
+       y1="207.84894"
+       x2="447.95767"
+       y2="207.84894" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2958"
+       id="linearGradient6370"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(90,464.05076,208.91506)"
+       x1="427.3732"
+       y1="207.84894"
+       x2="447.95767"
+       y2="207.84894" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2958"
+       id="linearGradient6475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(180,451.65574,220.589)"
+       x1="427.3732"
+       y1="207.84894"
+       x2="447.95767"
+       y2="207.84894" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#809bce;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect846"
+       width="142.875"
+       height="317.5"
+       x="92.604164"
+       y="109.26385"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/dark-bg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#95b8d1;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect846-9"
+       width="142.875"
+       height="317.5"
+       x="248.90781"
+       y="113.48014"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/light-bg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#a7ceb9;fill-opacity:1;stroke-width:0;filter:url(#filter3182);stop-color:#000000"
+       id="rect989-7-0"
+       width="51.240513"
+       height="51.240513"
+       x="25.754679"
+       y="218.16411"
+       ry="5.5422277"
+       transform="matrix(0.85109516,0,0,0.85109516,14.899076,31.879804)" />
+    <rect
+       style="fill:#d6eadf;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect989-7"
+       width="42.333332"
+       height="42.333332"
+       x="37.457367"
+       y="218.19682"
+       ry="4.5788178" />
+    <rect
+       style="fill:#d6eadf;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect989-7-6-8"
+       width="82.560326"
+       height="82.560326"
+       x="540.82483"
+       y="267.05948"
+       ry="8.9298124" />
+    <rect
+       style="fill:#eac4d5;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect989-7-5"
+       width="91.810051"
+       height="91.810051"
+       x="422.33691"
+       y="252.8936"
+       ry="9.9302721" />
+    <rect
+       style="fill:#809bce;fill-opacity:1;stroke-width:0;stop-color:#000000"
+       id="rect989-7-5-3"
+       width="104.38381"
+       height="104.38381"
+       x="510.83484"
+       y="145.42189"
+       ry="11.290263" />
+    <g
+       id="g5469"
+       transform="translate(-24.617942,-2.2125056)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/o.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path4498-1"
+         style="font-variation-settings:normal;vector-effect:none;fill:#7f96a6;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter4805);stop-color:#000000"
+         d="m 54.763238,277.46876 a 20.037927,20.037927 0 0 0 -20.038083,20.03808 20.037927,20.037927 0 0 0 20.038083,20.03745 20.037927,20.037927 0 0 0 20.037473,-20.03745 20.037927,20.037927 0 0 0 -20.037473,-20.03808 z m 0,9.13979 a 10.897715,10.897715 0 0 1 10.89766,10.89829 10.897715,10.897715 0 0 1 -10.89766,10.89765 10.897715,10.897715 0 0 1 -10.898272,-10.89765 10.897715,10.897715 0 0 1 10.898272,-10.89829 z"
+         transform="matrix(0.89405929,0,0,0.89405929,5.801624,31.518052)" />
+      <g
+         id="g5464">
+        <path
+           id="path4498"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#95b8d1;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           d="M 54.76319,280.64167 A 16.864988,16.864988 0 0 0 37.898071,297.50679 16.864988,16.864988 0 0 0 54.76319,314.37138 16.864988,16.864988 0 0 0 71.627795,297.50679 16.864988,16.864988 0 0 0 54.76319,280.64167 Z m 0,7.69254 a 9.1720981,9.1720981 0 0 1 9.172051,9.17258 9.1720981,9.1720981 0 0 1 -9.172051,9.17204 9.1720981,9.1720981 0 0 1 -9.172567,-9.17204 9.1720981,9.1720981 0 0 1 9.172567,-9.17258 z" />
+      </g>
+    </g>
+    <g
+       id="g10014"
+       transform="translate(30.827536,-80.688002)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/x.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2-3);stop-color:#000000"
+         id="rect5811-7-7-9-8-1"
+         width="36.754097"
+         height="9.7237873"
+         x="10.605328"
+         y="336.95337"
+         ry="2.1871054"
+         transform="matrix(-0.69485606,0.68864923,-0.76345643,-0.75781168,319.82818,609.33298)" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2);stop-color:#000000"
+         id="rect5811-7-7-9-8"
+         width="36.754097"
+         height="9.7237873"
+         x="10.605328"
+         y="336.95337"
+         ry="2.1871054"
+         transform="matrix(0.68864923,0.69485606,-0.75781168,0.76345643,277.80145,89.160435)" />
+      <g
+         id="g9776">
+        <rect
+           style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           id="rect5811-7-7-97"
+           width="34.648018"
+           height="9.1665955"
+           x="270.92535"
+           y="228.67079"
+           ry="2.0617802"
+           transform="matrix(0.7042159,0.70998589,-0.7042159,0.70998589,0,0)" />
+        <rect
+           style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           id="rect5811-7-7-97-2"
+           width="34.648018"
+           height="9.1665955"
+           x="218.29002"
+           y="-294.74567"
+           ry="2.0617802"
+           transform="matrix(-0.70998589,0.7042159,-0.70998589,-0.7042159,0,0)" />
+      </g>
+    </g>
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2-3-9);stop-color:#000000"
+       id="rect5811-7-7-9-8-1-8"
+       width="36.754097"
+       height="9.7237873"
+       x="10.605328"
+       y="336.95337"
+       ry="2.1871054"
+       transform="matrix(-0.69485606,0.68864923,-0.76345643,-0.75781168,708.78801,607.71359)" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#aa9fa4;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter8806-2-8);stop-color:#000000"
+       id="rect5811-7-7-9-8-5"
+       width="36.754097"
+       height="9.7237873"
+       x="10.605328"
+       y="336.95337"
+       ry="2.1871054"
+       transform="matrix(0.68864923,0.69485606,-0.75781168,0.76345643,666.76128,87.541047)" />
+    <g
+       id="g9776-6"
+       transform="translate(420.86855,-1.5446256)">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect5811-7-7-97-1"
+         width="34.648018"
+         height="9.1665955"
+         x="270.92535"
+         y="228.67079"
+         ry="2.0617802"
+         transform="matrix(0.7042159,0.70998589,-0.7042159,0.70998589,0,0)" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect5811-7-7-97-2-1"
+         width="34.648018"
+         height="9.1665955"
+         x="218.29002"
+         y="-294.74567"
+         ry="2.0617802"
+         transform="matrix(-0.70998589,0.7042159,-0.70998589,-0.7042159,0,0)" />
+    </g>
+    <g
+       id="g76425"
+       transform="translate(172.60853,78.842865)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/button.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#aa9ea3;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;filter:url(#filter13269);stop-color:#000000"
+         id="rect11510-3"
+         width="118.42516"
+         height="28.196466"
+         x="411.50742"
+         y="290.97464"
+         ry="5.4402275"
+         transform="matrix(0.96186854,0,0,1.0366132,-129.2831,19.977701)" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#eac4d5;fill-opacity:1;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         id="rect11510"
+         width="111.125"
+         height="26.458334"
+         x="267.92514"
+         y="322.99112"
+         ry="5.1048722" />
+    </g>
+    <g
+       id="g76449"
+       transform="translate(-109.98535,305.648)"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g65919"
+         transform="matrix(0.97151802,0,0,0.97151802,-337.6174,72.868153)">
+        <g
+           id="g67900"
+           transform="rotate(-6.2931116,537.81325,162.9624)">
+          <path
+             id="path57707"
+             style="opacity:1;fill:#809bce;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+             d="m 2567.0898,685.05469 a 61.021473,78.373433 4.3227174 0 0 -62.4218,73.64843 61.021473,78.373433 4.3227174 0 0 54.9121,82.78126 61.021473,78.373433 4.3227174 0 0 66.7793,-73.51758 61.021473,78.373433 4.3227174 0 0 -54.9141,-82.7793 61.021473,78.373433 4.3227174 0 0 -4.3555,-0.13281 z m -2.3847,49.89453 a 22.489747,27.94649 0 0 1 22.4902,27.94531 22.489747,27.94649 0 0 1 -22.4902,27.94727 22.489747,27.94649 0 0 1 -22.4903,-27.94727 22.489747,27.94649 0 0 1 22.4903,-27.94531 z"
+             transform="scale(0.26458333)" />
+          <path
+             style="fill:#809bce;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 622.31439,182.95633 -0.78464,13.0681 12.78496,-2.19356 0.26996,27.73619 13.14909,0.1067 -0.48719,-27.63766 12.27191,1.12946 -0.37225,-13.39957 z"
+             id="path20009-6-7" />
+          <path
+             style="fill:#809bce;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 698.26689,181.64622 -0.31633,40.1924 26.92048,-0.21319 -0.80518,-9.17293 -13.90034,-0.18084 -0.19902,-5.09496 9.45997,0.0913 -0.33301,-8.38085 -9.74746,-0.61053 0.63685,-4.35449 16.31948,0.97577 0.22196,-11.80064 z"
+             id="path57650" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.9501px;line-height:1.25;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#40609d;fill-opacity:1;stroke:none;stroke-width:1.37375"
+             x="620.10345"
+             y="223.17815"
+             id="text4172-8-4"><tspan
+               sodipodi:role="line"
+               id="tspan4170-8-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#40609d;fill-opacity:1;stroke-width:1.37375"
+               x="620.10345"
+               y="223.17815">TOE</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g44804"
+         transform="rotate(2.6639873,251.72884,-7400.9193)">
+        <g
+           id="g66637"
+           transform="rotate(3.7824008,778.54957,213.69872)">
+          <g
+             id="g43747">
+            <path
+               style="fill:#eac4d5;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 623.56988,192.01318 -0.78464,13.0681 12.78496,-2.19356 0.26996,27.73619 13.14909,0.1067 -0.48719,-27.63766 12.27191,1.12946 -0.37225,-13.39957 z"
+               id="path20009-6" />
+            <path
+               style="fill:#eac4d5;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 722.31591,191.2755 c 0,0 -15.83452,-4.17175 -25.59395,6.86597 -9.75943,11.03772 -1.14272,26.36555 0.34178,26.9669 1.86251,1.69202 4.89855,5.41755 12.91292,6.14662 3.28457,0.2988 9.30162,-3.37329 9.30162,-3.37329 l -3.0926,-11.5402 c 0,0 -5.59991,2.90131 -7.96258,1.39496 -2.41547,-1.53999 -3.30778,-5.37769 -2.14358,-7.99508 2.07891,-4.67385 11.90004,-1.78866 11.90004,-1.78866 z"
+               id="path22135-4"
+               sodipodi:nodetypes="csccccsscc" />
+            <path
+               style="fill:#eac4d5;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 669.65869,191.93265 -12.26844,39.06987 16.84078,0.2666 1.44632,-12.52296 2.14773,-0.57548 3.07575,12.69302 h 13.17361 l -14.28859,-40.24288 z"
+               id="path42185"
+               sodipodi:nodetypes="ccccccccc" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.9501px;line-height:1.25;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#c96994;fill-opacity:1;stroke:none;stroke-width:1.37375"
+             x="621.35895"
+             y="232.23499"
+             id="text4172-8"><tspan
+               sodipodi:role="line"
+               id="tspan4170-8"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#c96994;fill-opacity:1;stroke-width:1.37375"
+               x="621.35895"
+               y="232.23499">TAC</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g66629"
+         transform="rotate(-4.0300579,318.38439,172.00581)">
+        <g
+           id="g25631"
+           transform="matrix(1.3671024,0,0,1.3671024,-298.19,-59.156888)">
+          <path
+             style="fill:#d6eadf;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 413.62651,152.66752 -0.67583,11.25583 11.01196,-1.88936 0.23252,23.88976 11.32559,0.0919 -0.41963,-23.80489 10.57005,0.97282 -0.32062,-11.54133 z"
+             id="path20009" />
+          <path
+             style="fill:#d6eadf;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 449.13986,151.47125 -0.96491,34.71548 9.65952,-0.007 2.29798,-33.84719 z"
+             id="path21867" />
+          <path
+             style="fill:#d6eadf;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 489.10705,152.03214 c 0,0 -13.63861,-3.59322 -22.04461,5.9138 -8.406,9.50702 -0.98425,22.7092 0.29438,23.22716 1.60422,1.45737 4.21923,4.66625 11.12217,5.29421 2.82907,0.25736 8.01168,-2.90548 8.01168,-2.90548 l -2.66372,-9.93982 c 0,0 -4.82332,2.49896 -6.85834,1.20151 -2.08049,-1.32643 -2.84906,-4.63192 -1.84631,-6.88633 1.79061,-4.02569 10.24976,-1.54061 10.24976,-1.54061 z"
+             id="path22135"
+             sodipodi:nodetypes="csccccsscc" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.7045px;line-height:1.25;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#42815e;fill-opacity:1;stroke:none;stroke-width:1.61761"
+           x="264.67636"
+           y="196.91698"
+           id="text4172"><tspan
+             sodipodi:role="line"
+             id="tspan4170"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Plastic Love';-inkscape-font-specification:'Plastic Love';fill:#42815e;fill-opacity:1;stroke-width:1.61761"
+             x="264.67636"
+             y="196.91698">TIC</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g7768"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/spinner1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient3993);stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 408.52274,189.86719 c 0,0 0.011,-12.07032 12.64696,-13.61755"
+         id="path2307"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#d6eadf;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect6052"
+         width="37.041664"
+         height="37.041664"
+         x="402.77237"
+         y="171.15639" />
+    </g>
+    <g
+       id="g7776"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/spinner2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient6303);stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 422.18416,239.65281 c 0,0 -12.07032,-0.011 -13.61755,-12.64696"
+         id="path2307-02-2"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#d6eadf;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect6052-9"
+         width="37.041664"
+         height="37.041664"
+         x="402.77237"
+         y="208.19806" />
+    </g>
+    <g
+       id="g7772"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/spinner4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient6370);stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 458.30835,176.20576 c 0,0 12.07033,0.011 13.61755,12.64696"
+         id="path2307-0-7-7"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#d6eadf;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect6052-4"
+         width="37.041664"
+         height="37.041664"
+         x="439.81403"
+         y="171.15639" />
+    </g>
+    <g
+       id="g7780"
+       inkscape:export-filename="/home/mlopez/dev/defold/galviagames/multiplayer-tictactoe/assets/images/spinner3.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;fill-opacity:1;stroke:url(#linearGradient6475);stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 471.96977,226.52055 c 0,0 -0.011,12.07032 -12.64696,13.61755"
+         id="path2307-0-4-6"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#d6eadf;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect6052-4-6"
+         width="37.041664"
+         height="37.041664"
+         x="439.81403"
+         y="208.19804" />
+    </g>
+    <rect
+       style="opacity:1;fill:#c96994;fill-opacity:1;stroke:#d6eadf;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect7892"
+       width="27.007866"
+       height="35.156483"
+       x="296.47769"
+       y="519.22974" />
+  </g>
+</svg>

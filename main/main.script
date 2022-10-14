@@ -1,0 +1,50 @@
+local monarch = require "monarch.monarch"
+local nakama_client = require "main.modules.nakama_client"
+
+local SHOW_MENU = hash("show_menu")
+local SHOW_WAITING_ROOM = hash("show_waiting_room")
+local SHOW_GAME = hash("show_game")
+local SHOW_RESULTS = hash("show_results")
+
+function init(self)
+    msg.post("@render:", "use_fixed_fit_projection")
+
+    msg.post(".", "acquire_input_focus")
+    msg.post(".", "nakama_login")
+end
+
+local function nakama_login()
+    local co = coroutine.running()
+
+    nakama_client.login(function(login_ok, err)
+        if login_ok then
+            msg.post(".", "nakama_logged_in")
+        else
+            print("ERROR", "failed to login:", err)
+        end
+        coroutine.resume(co)
+    end)
+
+    return coroutine.yield()
+end
+
+function on_message(self, message_id, message, sender)
+    pprint("main", "on_message", message_id, message, sender)
+
+    if message_id == SHOW_MENU then
+        monarch.show("menu")
+    elseif message_id == SHOW_WAITING_ROOM then
+        monarch.show("waiting_room")
+    elseif message_id == SHOW_GAME then
+        monarch.show("game")
+    elseif message_id == SHOW_RESULTS then
+        monarch.show("results")
+    elseif message_id == hash("nakama_login") then
+        local co = coroutine.create(function()
+            nakama_login()
+        end)
+        local ok, err = coroutine.resume(co)
+    elseif message_id == hash("nakama_logged_in") then
+        msg.post(".", SHOW_MENU)
+    end
+end

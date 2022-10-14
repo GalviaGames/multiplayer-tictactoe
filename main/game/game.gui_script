@@ -1,0 +1,11 @@
+function init(self)
+    msg.post(".", "acquire_input_focus")
+end
+
+function on_message(self, message_id, message, sender)
+    if message_id == hash("player_turn") then
+        gui.set_text(gui.get_node("player_turn_text"), "YOUR\nTURN!")
+    elseif message_id == hash("opponent_turn") then
+        gui.set_text(gui.get_node("player_turn_text"), "OPPONENT\nIS\nPLAYING!")
+    end
+end

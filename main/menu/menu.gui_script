@@ -1,0 +1,34 @@
+local monarch = require "monarch.monarch"
+
+local function handle_button_tap(action, node_id, callback)
+    local node = gui.get_node(node_id)
+    if action.released and gui.pick_node(node, action.x, action.y) then
+        local color = vmath.vector4(0.6, 0.6, 0.6, 1)
+        gui.animate(node, gui.PROP_COLOR, color, gui.EASING_LINEAR, 0.2, 0, function()
+            callback()
+        end, gui.PLAYBACK_ONCE_PINGPONG)
+    end
+end
+
+function init(self)
+    msg.post(".", "acquire_input_focus")
+
+    monarch.preload("waiting_room")
+
+    local logo = gui.get_node("logo")
+    local rot = 0.3
+    gui.set_rotation(logo, vmath.vector3(0, 0, -rot))
+    gui.animate(logo, gui.PROP_ROTATION, vmath.vector3(0, 0, rot), gui.EASING_LINEAR, 3, 0, nil,
+        gui.PLAYBACK_LOOP_PINGPONG)
+
+    local s = 1.02
+    gui.animate(gui.get_node("join_game_button"), gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_LINEAR, 2, 0, nil
+        ,
+        gui.PLAYBACK_LOOP_PINGPONG)
+end
+
+function on_input(self, action_id, action)
+    handle_button_tap(action, "join_game_button", function()
+        monarch.show("waiting_room")
+    end)
+end
