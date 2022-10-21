@@ -1,13 +1,7 @@
-# Welcome to Defold
+# Multiplayer TicTacToe client made with Defold and Nakama
 
-This project was created from the "empty" project template.
-
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
-
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
-
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
-
-Happy Defolding!
+The game was built from scratch but it was inspired by the [Defold + Nakama tutorial](https://defold.com/2021/03/02/Creating-online-games-using-Nakama-and-Defold/).
 
 ---
+
+🎮️🕹️ Want to learn Defold? Check out our step-by-step [beginner tutorial series](https://bit.ly/3EvMZZX) where we will the classic game of Pong in Defold! ️🕹️🎮️
