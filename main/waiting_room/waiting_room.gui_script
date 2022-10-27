@@ -10,8 +10,8 @@ function init(self)
     gui.animate(spinner, "rotation.z", rot, gui.EASING_LINEAR, 0.5, 0, nil, gui.PLAYBACK_LOOP_FORWARD)
 
     nakama_client.join_match(function(join_ok)
-        -- careful with the URL, the message is sent from the main collection
         if join_ok then
+            -- careful with the URL, the message is sent from the main collection
             msg.post("waiting_room:/gui", "nakama_joined")
         else
             print("ERROR", "failed to join a match")

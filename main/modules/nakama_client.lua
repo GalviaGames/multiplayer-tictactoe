@@ -2,6 +2,7 @@ local nakama = require "nakama.nakama"
 local log = require "nakama.util.log"
 local defold = require "nakama.engine.defold"
 local json = require "nakama.util.json"
+local realtime = require "nakama.socket"
 
 local M = {}
 
@@ -30,9 +31,10 @@ function M.get_match()
 end
 
 function M.set_listener_url(url, replay_last_message)
-    print("setting listener url to", url)
+    print("set_listener_url", url)
     listener_url = url
 
+    pprint("match_update_data", match_update_data)
     if replay_last_message ~= nil and replay_last_message and match_update_data ~= nil then
         post_message(M.msgs.MATCH_UPDATE, match_update_data)
     end
@@ -44,10 +46,10 @@ local OP_CODE_STATE = 2
 
 -- authentication using device id
 local function device_login(client)
-    local body = nakama.create_api_account_device(defold.uuid())
+    local device_id = defold.uuid()
     -- login using the token and create an account if the user
     -- doesn't already exist
-    local result = nakama.authenticate_device(client, body, true)
+    local result = nakama.authenticate_device(client, device_id, nil, true)
     if result.token then
         -- store the token and use it when communicating with the server
         nakama.set_bearer_token(client, result.token)
@@ -61,14 +63,12 @@ end
 local function join_match(match_id, token, match_callback)
     nakama.sync(function()
         log("Sending match_join message")
-        local message = nakama.create_match_join_message(match_id, token)
-        local result = nakama.socket_send(socket, message)
+        local result = realtime.match_join(socket, match_id, token)
         if result.match then
             match = result.match
             match_callback(true)
         elseif result.error then
             log(result.error.message)
-            pprint(result)
             match = nil
             match_callback(false)
         end
@@ -79,11 +79,9 @@ end
 local function leave_match(match_id)
     nakama.sync(function()
         log("Sending match_leave message")
-        local message = nakama.create_match_leave_message(match_id)
-        local result = nakama.socket_send(socket, message)
+        local result = realtime.match_leave(socket, match_id)
         if result.error then
             log(result.error.message)
-            pprint(result)
         end
     end)
 end
@@ -91,7 +89,7 @@ end
 -- find an opponent (using the matchmaker)
 -- and then join the match
 local function find_opponent_and_join_match(match_callback)
-    nakama.on_matchmakermatched(socket, function(message)
+    realtime.on_matchmaker_matched(socket, function(message)
         print("on_matchmakermatched")
         local matched = message.matchmaker_matched
         if matched and (matched.match_id or matched.token) then
@@ -105,11 +103,9 @@ local function find_opponent_and_join_match(match_callback)
         log("Sending matchmaker_add message")
         -- find a match with any other player
         -- make sure the match contains exactly 2 users (min 2 and max 2)
-        local message = nakama.create_matchmaker_add_message("*", 2, 2)
-        local result = nakama.socket_send(socket, message)
+        local result = realtime.matchmaker_add(socket, 2, 2, "*")
         if result.error then
             log(result.error.message)
-            pprint(result)
             match_callback(nil)
         end
     end)
@@ -123,11 +119,9 @@ local function send_player_move(match_id, col, row)
             row = row,
         })
         log("Sending match_data message")
-        local message = nakama.create_match_data_message(match_id, OP_CODE_MOVE, data)
-        local result = nakama.socket_send(socket, message)
+        local result = realtime.match_data_send(socket, match_id, OP_CODE_MOVE, data)
         if result.error then
             log(result.error.message)
-            pprint(result)
         end
     end)
 end
@@ -194,7 +188,7 @@ function M.login(callback)
         -- we use the socket connetion to exchange messages
         -- with the matchmaker and match
         socket = nakama.create_socket(client)
-        local ok, err = nakama.socket_connect(socket)
+        local ok, err = realtime.connect(socket)
         if not ok then
             log("Unable to connect: ", err)
             callback(false, "Unable to create socket connection")
@@ -204,14 +198,14 @@ function M.login(callback)
         -- Called by Nakama when a player has left (or joined) the
         -- current match.
         -- We notify the game that the opponent has left.
-        nakama.on_matchpresence(socket, function(message)
+        realtime.on_match_presence_event(socket, function(message)
             log("nakama.on_matchpresence")
             handle_match_presence(message.match_presence_event)
         end)
 
         -- Called by Nakama when the game state has changed.
         -- We parse the data and send it to the game.
-        nakama.on_matchdata(socket, function(message)
+        realtime.on_match_data(socket, function(message)
             log("nakama.on_matchdata")
             handle_match_data(message.match_data)
         end)
